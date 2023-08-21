@@ -10,7 +10,7 @@ export default {
         education: {
             description: 'My Education',
             fn: () => {
-                return "About Me.\n---\nmale\n18\nstudent\nsolodev\nmelophile\nweeb\ndumb\napathetic\n---\n"
+                return "My Education\n---\nSeattle University\n2018-2020\nBachelors in Computer Science (Cum Laude)\n---\n North Seattle College\n2017-2018\nAssociates in Computer Science (Honors)\n---\n"
             }
         },
         skills: {
