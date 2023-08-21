@@ -29,23 +29,18 @@ export default {
             }
         },
         projects: {
-            description: 'My Projects',
+            description: 'My Tech Projects',
             fn: () => {
                 return `
                     Cool projects I have worked on.\n---\n
-                    'ashterm'                         | 'terminal portfolio'   | 'javascript'
-                    'octocolor'                       | 'github profile color' | 'javascript'
-                    'kanna-chan'                      | 'Discord-Bot'          | 'python'
-                    'wordinal'                        | 'wordle-on-terminal'   | 'javascript'
-                    'weeby.py'                        | 'API-wrapper'          | 'python'
-                    'gitbanner'                       | 'banner-generator'     | 'javascript'\n---\n
+                    'jocelindarma'  | 'terminal portfolio'   | 'javascript'\n---\n
                 `
             }
         },
         email: {
             description: 'Shoot me an email',
             fn: () => {
-                window.open('https://www.linkedin.com/in/jocelindarma/', '_blank')
+                window.open('mailto:jocelindarma13@gmail.com', '_blank')
                 return "opening mail..."
             }
         },
@@ -63,11 +58,11 @@ export default {
                 return "opening github account..."
             }
         },
-        repo: {
-            description: "Visit this website's GitHub repo",
+        gui: {
+            description: 'Visit my normal website',
             fn: () => {
-                window.open("https://github.com/jocelindarma/terminal", '_blank')
-                return "opening repository..."
+                window.open('https://jocelindarma.github.io/', '_blank')
+                return "opening website GUI..."
             }
         },
     },

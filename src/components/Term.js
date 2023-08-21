@@ -13,7 +13,7 @@ export default function Term() {
             welcomeMessage={[
                 "Welcome!",
                 "---",
-                "Type 'help' to see a list of commands.",
+                "Type 'help' to see a list of commands",
                 "---",
             ]}
             commands={{
@@ -37,7 +37,7 @@ export default function Term() {
             promptLabel={prompt} 
             autoFocus
             style={{
-                backgroundColor:null,
+                backgroundColor:'#282a36',
                 minHeight: null,
                 maxHeight: null,
                 overflow: 'auto',
@@ -46,8 +46,8 @@ export default function Term() {
             }}
             styleEchoBack='fullInherit'
             contentStyle={{ color: '#ffb86c' , fontWeight: 'normal', paddingLeft: null}} // Text colour
-            promptLabelStyle={{ color: '#ff5555' , fontWeight:'normal'}} // Prompt label colour
-            inputTextStyle={{ color: '#f1fa8c' , fontWeight: 'normal'}}
+            promptLabelStyle={{ color: '#f1fa8c' , fontWeight:'normal'}} // Prompt label colour
+            inputTextStyle={{ color: '#6272a4' , fontWeight: 'normal'}}
             messageStyle={{ color: '#8be9fd' , fontWeight: 'normal', paddingLeft: null}}
             scrollBehavior='auto'
             noDefaults
